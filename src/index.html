@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+  </head>
+  <body class="">
+    <!-- Container -->
+    <main
+      class="grid container mx-auto px-4 py-4 place-content-center gap-0 bg-primary min-h-screen min-w-full md:grid-cols-2 md:px-20"
+    >
+      <!-- Hero Images -->
+      <div class="md:row-span-3">
+        <img
+          class="rounded-t-lg md:h-full md:rounded-none"
+          src="/images/image-product-mobile.jpg"
+          alt="Hero"
+        />
+      </div>
+      <!-- Description -->
+      <div class="bg-white py-4 px-6">
+        <h2 class="tracking-lg text-sm font-medium text-neutral-400 mb-2">
+          PERFUME
+        </h2>
+        <h1 class="font-bold text-4xl mb-4">Gabrielle Essence Eau De Parfum</h1>
+        <p class="text-neutral-400">
+          A floral, solar and voluptuous <br />
+          interpretation composed by Olivier <br />
+          Polge, Perfumer-Creator for the House of <br />
+          CHANEL.
+        </p>
+      </div>
+      <!-- Harga -->
+      <div class="bg-white px-6 flex space-x-12 items-center">
+        <p class="text-4xl font-bold text-green-700">$149.99</p>
+        <p class="line-through text-neutral-400">$169.99</p>
+      </div>
+      <!-- Cart -->
+      <div class="bg-white p-6 rounded-b-lg md:rounded-none">
+        <button
+          class="bg-green-700 mx-auto py-2 px-20 rounded-lg text-white flex items-center justify-center space-x-4"
+        >
+          <img src="/images/icon-cart.svg" alt="Cart" />
+          <p>Add to Cart</p>
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
